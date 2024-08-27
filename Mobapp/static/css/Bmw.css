@@ -1,0 +1,65 @@
+.nav{
+	background-color: black;
+	margin: 0;
+	/* padding: 20px; */
+	/* padding-bottom:30px  */
+}
+#log{
+    float: left;
+    margin:10px 0 0 20px;
+}
+
+h1{
+    background-color: black;
+    font-family: Gabriola;
+    font-size: 45px;
+    padding-left: 10px;
+    color:whitesmoke;
+    padding: 10px;
+}
+h2{
+    text-decoration: underline;
+}
+p{
+    color: green;
+    border: 20%
+}
+
+ul{
+	list-style-type: none;
+	padding: 20px;
+	overflow: hidden;
+}
+ul li{
+	float: left;
+    color: white;
+}
+
+li a i{
+    font-size: 50px;
+    color: aqua;
+    margin-left: 5px;
+}
+
+li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+    font-size: 20px;
+	
+}
+li a:hover{
+	background-color: red;
+	text-decoration: none;
+}
+footer{
+    background: rgb(71, 162, 192);
+    padding: 20px;
+    display: flex;
+}
+.footer{
+    margin: 0 80px;
+}
+.footer p{
+    color: black;
+}

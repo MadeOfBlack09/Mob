@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+body{
+    background-color:rgb(61, 145, 181);
+    font-family: verdana;
+   
+}
+img{
+    margin-left: 700px;
+    height: 300px;
+    border: 8px  solid black;
+}
+button{
+    width: 80%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(2, 25, 92);
+    color: white;
+    border: none;
+}
+span{
+    color: white;
+    margin: 42px;
+}
+form{
+    color:white;
+    text-align: center;
+    border: 3px solid black;
+    box-shadow: 2px 5px 10px 10px rgb(2, 25, 92);
+    /* border-radius: 10px; */
+    width: 30%;
+    background-color: rgb(113, 67, 7);
+    height: 900px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    backdrop-filter: blur(px);
+}
+form input{
+    padding: 20px;
+    width: 70%;
+}
+input{
+    background-color: black;
+    padding: 10px;
+    color:white;
+    border-radius: 10px;
+}
+
+
+</style>
+</head>
+<body>
+    <center>
+        <form action="" method="post">
+            {%csrf_token%}
+
+            <h1>Sign-Up</h1>
+             <br>
+            <input type="text" name="fname" placeholder="First Name"><br>
+
+             <br>
+            <input type="text" name="mid" placeholder="Middle Name"><br>
+
+             <br>
+            <input type="text" name="surname" placeholder="Last Name"><br>
+
+             <br>
+            <input type="text" name="username" placeholder="Username"><br>
+
+             <br>
+            <input type="text" name="tel" placeholder="Phone number"><br>
+
+            <br>
+            <input type="text" name="gender" placeholder="Gender"><br>
+
+             <br>
+            <input type="text" name="dob" placeholder="Date of birth"><br>
+
+             <br>
+            <input type="email" name="email" placeholder="Email"><br>
+
+             <br>
+            <input type="password" name="password1" placeholder="Password" id="password1"><br>
+
+             <br>
+            <input type="password" name="password2" placeholder="Confirm Password" id="password2"><br>
+
+                <br>
+            <button type="submit">Register</button>
+        </form>
+    </center>
+</body>
+</html>
